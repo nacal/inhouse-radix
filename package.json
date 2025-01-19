@@ -11,7 +11,8 @@
     "build-storybook": "storybook build"
   },
   "dependencies": {
-    "@pepabo-inhouse/components-web": "^3.2.0",
+    "@pepabo-inhouse/button": "^3.2.0",
+    "@pepabo-inhouse/flavor": "^3.1.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1"
   },
@@ -27,7 +28,9 @@
     "@types/react": "^18.3.18",
     "@types/react-dom": "^18.3.5",
     "@vitejs/plugin-react": "^4.3.4",
+    "autoprefixer": "^10.4.20",
     "globals": "^15.14.0",
+    "sass": "^1.83.4",
     "storybook": "^8.5.0",
     "typescript": "~5.6.2",
     "vite": "^6.0.5"
